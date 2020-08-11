@@ -1,16 +1,73 @@
-/* Type your code here */
+body {
+  background-image: url("/assets/background-img.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: Nunito Sans;
+  margin-left: 25px;
+}
 
+.logo {
+  margin: 10px;
+  padding-left: 85%;
+  height: 35px;
+}
 
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+h1 {
+  font-weight: bold;
+}
+
+h3 {
+  color: grey;
+}
+
+header + div {
+  line-height: 1px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
+}
+
+.table_container {
+  display: grid;
+  grid-row-gap: 2px;
+  background-color: white;
+  font-weight: 500;
+  width: 75%;
+  height: 50%;
+}
+
+#t1 {
+  background-color: orangered;
+  width: 100%;
+  color: white;
+}
+
+#th1 {
+  text-align: start;
+}
+
+#th2 {
+  text-align: end;
+  padding-right: 15px;
+}
+
+#t2 td p {
+  font-weight: bold;
+}
+
+.a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.a:hover {
+  color: black;
 }
